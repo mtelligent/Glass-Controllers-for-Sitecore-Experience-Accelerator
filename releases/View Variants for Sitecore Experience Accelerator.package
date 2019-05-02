@@ -1,0 +1,104 @@
+<project site="viewvariants.dev.local" format="Zip Package" targetfilefolder="wwwroot">
+  <Metadata>
+    <metadata>
+      <PackageName>View Variants for Sitecore Experience Accelerator</PackageName>
+      <Author>David San Filippo</Author>
+      <Version>v 0.5</Version>
+      <Revision />
+      <License>MIT License
+
+Copyright (c) David San Filippo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</License>
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher>mtelligent</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/templates/Foundation/SF/View Variants/{42FB2C7D-FE93-4F0B-990E-09F6912949E7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/View Variants/Rendering Variant/{AAC6156C-AA3E-46DA-AA6B-23E089DB218E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/View Variants/Rendering Variant/View Rendering/{69DBA5A6-8F69-4970-B0A0-3F46450F40F5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/View Variants/Rendering Variant/View Rendering/VariantDetails/{A114FB9A-671F-4637-BE8C-36C7BD324FF5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/View Variants/Rendering Variant/View Rendering/__Standard Values/{7D65B47B-AE48-4C38-8504-C08782D31205}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/View Variants/Rendering Variant/View Rendering/VariantDetails/View Path/{3540DFE8-35B8-4AB6-8BCE-332B28A52E95}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Insert Options/Rules/Add View Rendering Field to Variant Definition/{988B259E-DA71-469F-8C67-61A4FB4818B6}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Items</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/bin/SF.Foundation.ViewVariants.dll</x-item>
+        <x-item>/bin/SF.Foundation.ViewVariants.pdb</x-item>
+        <x-item>/App_Config/Include/Foundation.ViewVariants/ViewVariants.config</x-item>
+        <x-item>/Views/GenericVariant/Index.cshtml</x-item>
+        <x-item>/Views/SampleVariantViews/Sample.cshtml</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root />
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
